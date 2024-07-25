@@ -13,6 +13,12 @@ int main(){
     for(int i=0;i<size;i++){
         cout<<arr[i];
     }
+int sum=0;
+  for(int i=0;i<size;i++){
+sum+=arr[i];
+
+}
+cout<<"average is :<<sum/size;
     return 0;
 
 }
